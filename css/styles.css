@@ -11,19 +11,22 @@ body {
 }
 
 nav {
-    display: flex; /*deixar itens um ao lado do outro*/
-    justify-content: space-between; /* tag a tendo espaçamento da tag ul */
-    align-items: center; /* centraliza itens da vertical */
+    display: flex;
+    /*deixar itens um ao lado do outro*/
+    justify-content: space-between;
+    /* tag a tendo espaçamento da tag ul */
+    align-items: center;
+    /* centraliza itens da vertical */
 
     padding: 0 80px;
 
-    background-color: #fff;
-    height: 80px;
+    background-color: var(--background-color);
+    height: 5rem;
 }
 
 #logo {
-    font-size: 24px;
-    color: #00b894;
+    font-size: 1.5rem;
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
 }
@@ -43,12 +46,12 @@ nav {
 }
 
 .nav-link:hover {
-    color: #00b894
+    color: var(--primary-color)
 }
 
 .nav-link.active {
-    border-bottom: 3px #00b894 solid;
-    color: #00b894
+    border-bottom: 3px var(--primary-color) solid;
+    color: var(--primary-color)
 }
 
 .header-container {
@@ -58,7 +61,7 @@ nav {
 }
 
 .header-container h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .header-container span {
@@ -77,9 +80,9 @@ main {
 }
 
 .card {
-    background-color: #fff;
-    color: #333;
-    padding: 24px;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
@@ -97,7 +100,7 @@ main {
 }
 
 .card i {
-    font-size: 48px;
-    color: #00b894;
-    margin-bottom: 16px;
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
 }
